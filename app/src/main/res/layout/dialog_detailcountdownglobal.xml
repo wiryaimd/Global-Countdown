@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/color10"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/detailcountdownglobal_img"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:visibility="visible">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/detailcountdownglobal_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailcountdownglobal_img"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/customcolor6"
+            android:padding="4dp"
+            android:text="wiryaimd"
+            android:textColor="@color/color1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/detailcountdownglobal_todate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailcountdownglobal_img"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/mfont2"
+            android:text="2020 Mar 1999 awokawo"
+            android:textColor="@color/color1">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/detailcountdownglobal_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailcountdownglobal_username"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:fontFamily="@font/mfont1"
+            android:text="Ngentod lu bang kahh aowkaowkawokw aanjneggg"
+            android:textColor="@color/color1"
+            android:textSize="22sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/detailcountdownglobal_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detailcountdownglobal_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/sflight"
+            android:text="asu koe jancok tenan asuu taik kucing bajingan"
+            android:textColor="@color/color1">
+
+        </TextView>
+
+        <LinearLayout
+            android:id="@+id/detailcountdownglobal_linear1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/detailcountdownglobal_btnnotif"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:id="@+id/detailcountdownglobal_votescount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sflight"
+                android:text="103"
+                android:textColor="@color/color1"
+                android:textSize="22sp">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/detailcountdownglobal_voteimg"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/upvotes">
+
+            </ImageView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/detailcountdownglobal_btnnotif"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/detailcountdownglobal_desc"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/customcolor2"
+            android:text="Get Notification"
+            android:textColor="@color/color10"
+            android:textSize="14sp">
+
+        </Button>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

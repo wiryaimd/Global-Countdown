@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customcolor5">
+
+    <TextView
+        android:id="@+id/info_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:fontFamily="@font/mfont1"
+        android:text="Ngontol amat anjing"
+        android:textSize="24sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/info_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_title"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/mfont2"
+        android:text="asuu koeeee asdlkajsdl"
+        android:textSize="16sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/info_btnok"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/info_desc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/customcolor2"
+        android:text="Ok"
+        android:textColor="@color/color1">
+
+    </Button>
+
+</RelativeLayout>

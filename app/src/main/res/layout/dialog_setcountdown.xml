@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/setcountdown_tvmain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/mfont1"
+        android:text="Detail Settings"
+        android:textAlignment="center"
+        android:textColor="@color/color3"
+        android:textSize="32sp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/setcountdown_edttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setcountdown_tvmain"
+        android:layout_margin="12dp"
+        android:background="@drawable/customcolor1"
+        android:hint="Title..."
+        android:padding="6dp"
+        android:textSize="22sp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/setcountdown_edtdesc"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/setcountdown_edttitle"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/customcolor1"
+        android:gravity="start|top"
+        android:hint="Desc..."
+        android:padding="6dp"
+        android:textSize="22sp">
+
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/setcountdown_linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setcountdown_edtdesc"
+        android:layout_margin="12dp"
+        android:background="@drawable/customcolor1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Notification"
+            android:textAlignment="center"
+            android:textColor="@color/color3"
+            android:textSize="22sp">
+
+        </TextView>
+
+        <Switch
+            android:id="@+id/setcountdown_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp">
+
+        </Switch>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setcountdown_btnsave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setcountdown_linear1"
+        android:layout_margin="8dp"
+        android:background="@drawable/customcolor2"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp">
+
+    </Button>
+
+</RelativeLayout>

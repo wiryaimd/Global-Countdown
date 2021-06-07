@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:background="@drawable/customcolor3">
+
+    <ImageView
+        android:id="@+id/detailcountdown_notification"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/detailcountdown_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_toStartOf="@id/detailcountdown_notification"
+        android:fontFamily="@font/mfont1"
+        android:text="Ngontol bangak hyunggg"
+        android:textColor="@color/color1"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailcountdown_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailcountdown_title"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/sflight"
+        android:text="Ngontol bangak hyunggg"
+        android:textColor="@color/color1"
+        android:textSize="14sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/detailcountdown_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detailcountdown_desc"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_toStartOf="@id/detailcountdown_btndelete"
+        android:text="20-Mar-2021"
+        android:textColor="@color/color1"
+        android:textSize="12sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/detailcountdown_btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@id/detailcountdown_desc"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/customcolor4"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:text="Delete Countdown"
+        android:textColor="@color/color1">
+
+    </Button>
+
+</RelativeLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color2">
+
+    <ImageView
+        android:id="@+id/localc_imgbg"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="fitXY">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/localc_addcd"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_addcd"
+        android:visibility="gone">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/localc_tvaddcd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/localc_addcd"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/mfont2"
+        android:text="There's no countdown added"
+        android:textColor="@color/color1"
+        android:textSize="16sp"
+        android:visibility="gone">
+
+    </TextView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/localc_btncreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_add">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/localc_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="54dp"
+                android:background="@drawable/customcolor1"
+                android:fontFamily="@font/mfont1"
+                android:padding="6dp"
+                android:text="Local Countdown"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="38sp">
+
+            </TextView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/localc_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/localc_title"
+                android:nestedScrollingEnabled="true">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

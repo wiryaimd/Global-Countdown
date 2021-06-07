@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282828</color>
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorAccent">#3BBD92</color>
+    <color name="color1">#E1E0E0</color>
+    <color name="color2">#0A2131</color>
+    <color name="color3">#4062B8</color>
+    <color name="color4">#68D86C</color>
+    <color name="color5">#58A55B</color>
+    <color name="color6">#665361DB</color>
+    <color name="color7">#040E18</color>
+    <color name="color8">#F44336</color>
+    <color name="color9">#8E342D</color>
+    <color name="color10">#232323</color>
+
+    <color name="c1">#CC414CA8</color>
+    <color name="c2">#CCFFEB3B</color>
+    <color name="c3">#CC4CAF50</color>
+    <color name="c4">#CC009688</color>
+
+    <color name="randc1">#CC5361DB</color>
+    <color name="randc2">#B3FFEB3B</color>
+    <color name="randc3">#B352BC56</color>
+    <color name="randc4">#B3009688</color>
+
+    <color name="g1a">#4062B8</color>
+    <color name="g1b">#7195F3</color>
+    <color name="g1c">#4062B8</color>
+</resources>
